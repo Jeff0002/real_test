@@ -1,11 +1,11 @@
 var express    = require("express");
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : 'root',
-  database : 'sakila',
-  port: '8889'
+  host     : 'us-cdbr-iron-east-04.cleardb.net',
+  user     : 'bd4552449d3206',
+  password : 'b5d4d546',
+  database : 'heroku_1f7cb0988286813',
+  port: '3306'
 });
 var app = express();
 
