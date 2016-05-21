@@ -42,7 +42,7 @@ app.get("/customer/:country",function(req, res){
     console.log('Error while performing Query.');
   });
 });
-
+var server = http.createServer(app);
 var port_number = server.listen(process.env.PORT || 3000);
 
 app.listen(port_numberr);
